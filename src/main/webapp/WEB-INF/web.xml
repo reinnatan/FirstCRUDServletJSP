@@ -3,11 +3,26 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Testing Maven CRUD Applications</display-name>
+  <description/>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+
+
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>add</servlet-name>
+    <servlet-class>AddServlet</servlet-class>
+  </servlet>
+
+
+
 
 
 </web-app>
