@@ -18,7 +18,7 @@
 
   <servlet>
     <servlet-name>user-admin</servlet-name>
-    <servlet-class>LoginLogout</servlet-class>
+    <servlet-class>controller.LoginLogout</servlet-class>
   </servlet>
 
 </web-app>
