@@ -18,7 +18,7 @@ public class DataSource {
         config.addDataSourceProperty("cachePrepStmt","true");
         config.addDataSourceProperty("prepStmtCacheSize","250");
         config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
-        ds = new HikariDataSource(config)
+        ds = new HikariDataSource(config);
     }
 
     public static Connection getConnection() throws SQLException {
