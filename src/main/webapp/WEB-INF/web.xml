@@ -10,19 +10,15 @@
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 
-
   <servlet-mapping>
-    <servlet-name>add</servlet-name>
-    <url-pattern>/add</url-pattern>
+    <servlet-name>user-admin</servlet-name>
+    <url-pattern>/login</url-pattern>
+    <url-pattern>/logout</url-pattern>
   </servlet-mapping>
 
   <servlet>
-    <servlet-name>add</servlet-name>
-    <servlet-class>AddServlet</servlet-class>
+    <servlet-name>user-admin</servlet-name>
+    <servlet-class>LoginLogout</servlet-class>
   </servlet>
-
-
-
-
 
 </web-app>
