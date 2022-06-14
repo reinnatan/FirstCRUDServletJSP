@@ -15,6 +15,6 @@ public class AddServlet extends HttpServlet {
         resp.getWriter().println(req.getParameter("name"));
         resp.getWriter().println(req.getParameter("phone"));
         resp.getWriter().println(req.getParameter("address"));
-        //RequestDispatcher dispatcher = req.getRequestDispatcher()
+        RequestDispatcher dispatcher = req.getRequestDispatcher("");
     }
 }
